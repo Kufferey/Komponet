@@ -31,7 +31,7 @@ public class PersonKomp : Komponet
 }
 ```
 Okay, we got a basic person class Konponet.
-Two `override` functions you can do it:
+Two `override` functions you can do something with is:
 `public override void KomponetAdded()` and `public override void KomponetRemoved()`.
 The names are self explanatory. But we can add this to our custom Komponet:
 ```csharp
