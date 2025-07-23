@@ -1,8 +1,7 @@
 # Komponet
 A Componet system in C#. Made for the fun of it. Not Ment For Actual Use.
 
-# Getting Started
-So, to begin. Komponet is a class library so, putting it into projects is easy (hopefully).
+Its a .dotnet class library.
 
 # Making A Komponet
 Making a Komponet is easy (hopefully).
