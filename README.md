@@ -14,7 +14,7 @@ public class PersonKomp : Komponet
 {
 }
 ```
-Cool, lets add some variables:
+Cool, lets add some variables and stuff:
 ```csharp
 using Komponets;
 
