@@ -9,3 +9,14 @@ C:\Users\YOUR PC\Downloads\Komponets - Copy\obj\Debug\net9.0\Komponets.dll
 C:\Users\YOUR PC\Downloads\Komponets - Copy\obj\Debug\net9.0\refint\Komponets.dll
 C:\Users\YOUR PC\Downloads\Komponets - Copy\obj\Debug\net9.0\Komponets.pdb
 C:\Users\YOUR PC\Downloads\Komponets - Copy\obj\Debug\net9.0\ref\Komponets.dll
+C:\Users\YOUR PC\Downloads\Komponet-main\Komponet-main\bin\Debug\net9.0\Komponets.deps.json
+C:\Users\YOUR PC\Downloads\Komponet-main\Komponet-main\bin\Debug\net9.0\Komponets.dll
+C:\Users\YOUR PC\Downloads\Komponet-main\Komponet-main\bin\Debug\net9.0\Komponets.pdb
+C:\Users\YOUR PC\Downloads\Komponet-main\Komponet-main\obj\Debug\net9.0\Komponets.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\YOUR PC\Downloads\Komponet-main\Komponet-main\obj\Debug\net9.0\Komponets.AssemblyInfoInputs.cache
+C:\Users\YOUR PC\Downloads\Komponet-main\Komponet-main\obj\Debug\net9.0\Komponets.AssemblyInfo.cs
+C:\Users\YOUR PC\Downloads\Komponet-main\Komponet-main\obj\Debug\net9.0\Komponets.csproj.CoreCompileInputs.cache
+C:\Users\YOUR PC\Downloads\Komponet-main\Komponet-main\obj\Debug\net9.0\Komponets.dll
+C:\Users\YOUR PC\Downloads\Komponet-main\Komponet-main\obj\Debug\net9.0\refint\Komponets.dll
+C:\Users\YOUR PC\Downloads\Komponet-main\Komponet-main\obj\Debug\net9.0\Komponets.pdb
+C:\Users\YOUR PC\Downloads\Komponet-main\Komponet-main\obj\Debug\net9.0\ref\Komponets.dll

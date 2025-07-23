@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\YOUR PC\\Downloads\\Komponets - Copy\\Komponets.csproj": {}
+    "C:\\Users\\YOUR PC\\Downloads\\Komponet-main\\Komponet-main\\Komponets.csproj": {}
   },
   "projects": {
-    "C:\\Users\\YOUR PC\\Downloads\\Komponets - Copy\\Komponets.csproj": {
+    "C:\\Users\\YOUR PC\\Downloads\\Komponet-main\\Komponet-main\\Komponets.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\YOUR PC\\Downloads\\Komponets - Copy\\Komponets.csproj",
+        "projectUniqueName": "C:\\Users\\YOUR PC\\Downloads\\Komponet-main\\Komponet-main\\Komponets.csproj",
         "projectName": "Komponets",
-        "projectPath": "C:\\Users\\YOUR PC\\Downloads\\Komponets - Copy\\Komponets.csproj",
+        "projectPath": "C:\\Users\\YOUR PC\\Downloads\\Komponet-main\\Komponet-main\\Komponets.csproj",
         "packagesPath": "C:\\Users\\YOUR PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\YOUR PC\\Downloads\\Komponets - Copy\\obj\\",
+        "outputPath": "C:\\Users\\YOUR PC\\Downloads\\Komponet-main\\Komponet-main\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\YOUR PC\\AppData\\Roaming\\NuGet\\NuGet.Config"

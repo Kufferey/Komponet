@@ -11,9 +11,11 @@ public class Komponet
     /// </summary>
     public List<Komponet> Komponets { get; set; } = [];
 
+    public object? AttachedObject { get; set; }
+
     virtual public void KomponetAdded()
     {
-
+        AttachedObject = this;
     }
 
     virtual public void KomponetRemoved()
@@ -22,10 +24,10 @@ public class Komponet
     }
 
     /// <summary>
-    /// Adds a Komponet.
+    /// Adds a Komponet by creating a class. So, makes it easier to edit properties.
     /// </summary>
     /// <param name="komponet">The Komponet to add.</param>
-    virtual public void AddKomponet(Komponet komponet)
+    virtual public void AddKomponetAsClass(Komponet komponet)
     {
         if (!Komponets.Contains(komponet))
         {
@@ -42,32 +44,36 @@ public class Komponet
     /// <summary>
     /// Remove a Komponet.
     /// </summary>
-    /// <param name="komponet">The Komponet to remove.</param>
-    virtual public void RemoveKomponet(Komponet komponet)
+    virtual public void RemoveKomponet<Komp>() where Komp : Komponet
     {
-        if (Komponets.Contains(komponet))
+        Komponet? komponetToRemove = GetKomponet<Komp>();
+        if (komponetToRemove == null)
         {
-            Komponets.Remove(komponet);
-            komponet.KomponetRemoved();
-            Console.WriteLine("Komponet remove successfully.");
+            Console.WriteLine($"Komponet {komponetToRemove} cannot be removed. (Komponet doesn't exist)");
+            return;
         }
-        else
-        {
-            Console.WriteLine("Komponet could not be removed. (Komponet doesn't exist)");
-        }
+
+        komponetToRemove.KomponetRemoved();
+        Komponets.RemoveAll(theKomp => theKomp == komponetToRemove);
     }
+
+    // virtual public void RemoveKomponet(Komponet komponet)
+    // {
+    //     if (Komponets.Contains(komponet))
+    //     {
+    //         Komponets.Remove(komponet);
+    //         komponet.KomponetRemoved();
+    //         Console.WriteLine("Komponet remove successfully.");
+    //     }
+    //     else
+    //     {
+    //         Console.WriteLine("Komponet could not be removed. (Komponet doesn't exist)");
+    //     }
+    // }
 
     /// <summary>
     /// Returns a Komponet.
     /// </summary>
     /// <param name="komponet">The Komponet to return.</param>
-    virtual public Komp? GetKomponet<Komp>() where Komp : Komponet
-    {
-        foreach (Komponet komponet in Komponets)
-        {
-            if (komponet is Komp)
-                return (Komp)komponet;
-        }
-        return null;
-    }
+    virtual public Komp GetKomponet<Komp>() where Komp : Komponet => Komponets.FirstOrDefault(komponet => komponet is Komp) as Komp;
 }
