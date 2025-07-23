@@ -7,7 +7,7 @@ Its a .dotnet class library.
 Making a Komponet is easy (hopefully).
 
 To start make a basic file lets call it "PersonKomp.cs":
-```
+```csharp
 using Komponets;
 
 public class PersonKomp : Komponet
@@ -16,7 +16,7 @@ public class PersonKomp : Komponet
 ```
 
 Cool, lets add some variables:
-```
+```csharp
 using Komponets;
 
 public class PersonKomp : Komponet
