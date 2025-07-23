@@ -14,3 +14,14 @@ public class PersonKomp : Komponet
 {
 }
 ```
+
+Cool, lets add some variables:
+```
+using Komponets;
+
+public class PersonKomp : Komponet
+{
+  public string PersonName {get; set;}
+  public string PersonAge {get; set;}
+}
+```
