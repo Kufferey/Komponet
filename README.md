@@ -74,3 +74,29 @@ public override void KomponetRemoved()
     Console.WriteLine($"{PersonName} died at age: {PersonAge}.");
 }
 ```
+Here is the full file:
+```
+using Komponets;
+
+public class PersonKomp : Komponet
+{
+    public string PersonName { get; set; }
+    public int PersonAge { get; set; }
+
+    public PersonKomp(string name, int age)
+    {
+        PersonName = name;
+        PersonAge = age;
+    }
+
+    public override void KomponetAdded()
+    {
+        Console.WriteLine($"{PersonName} Was Born at age: {PersonAge}!");
+    }
+
+    public override void KomponetRemoved()
+    {
+        Console.WriteLine($"{PersonName} died at age: {PersonAge}.");
+    }
+}
+```
