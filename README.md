@@ -75,7 +75,7 @@ public override void KomponetRemoved()
 }
 ```
 Here is the full file:
-```
+```csharp
 using Komponets;
 
 public class PersonKomp : Komponet
