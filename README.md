@@ -1,7 +1,7 @@
 # Komponet
 A Componet system in C#. Made for the fun of it. Not Ment For Actual Use.
 
-Its a .dotnet class library.
+Its a Dotnet class library.
 
 # Making A Komponet
 Making a Komponet is easy (hopefully).
