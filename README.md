@@ -63,7 +63,7 @@ Okay, we are getting somewhere (Kinda).
 ### Making A Komponet | 02
 Now we are going to focus on the `override` functions that was mentioned ealier.
 Lets make it where if the Komponet gets added/removed it prints some text:
-```
+```csharp
 public override void KomponetAdded()
 {
     Console.WriteLine($"{PersonName} Was Born at age: {PersonAge}!");
