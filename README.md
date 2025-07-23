@@ -59,3 +59,5 @@ public class PersonKomp : Komponet
     }
 }
 ```
+Okay, we are getting somewhere (Kinda).
+#### Making A Komponet | 02
