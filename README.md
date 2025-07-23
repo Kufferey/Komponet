@@ -21,7 +21,13 @@ using Komponets;
 
 public class PersonKomp : Komponet
 {
-  public string PersonName {get; set;}
-  public string PersonAge {get; set;}
+    public string PersonName { get; set; }
+    public int PersonAge { get; set; }
+
+    public PersonKomp(string name, int age)
+    {
+        PersonName = name;
+        PersonAge = age;
+    }
 }
 ```
